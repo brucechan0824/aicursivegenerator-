@@ -82,6 +82,7 @@ export default function Home() {
             </div>
             <nav className="hidden md:flex space-x-6">
               <a href="#generator" className="text-gray-600 hover:text-purple-600 transition-colors">Generator</a>
+              <a href="/cursive-alphabet" className="text-gray-600 hover:text-purple-600 transition-colors">Cursive Alphabet</a>
               <a href="#fonts" className="text-gray-600 hover:text-purple-600 transition-colors">Fonts</a>
               <a href="#about" className="text-gray-600 hover:text-purple-600 transition-colors">About</a>
               <a href="#faq" className="text-gray-600 hover:text-purple-600 transition-colors">FAQ</a>
@@ -491,6 +492,7 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#generator" className="hover:text-white transition-colors">AI Cursive Generator</a></li>
+                <li><a href="/cursive-alphabet" className="hover:text-white transition-colors">Cursive Alphabet</a></li>
                 <li><a href="#generator" className="hover:text-white transition-colors">Cursive Font Generator</a></li>
                 <li><a href="#generator" className="hover:text-white transition-colors">Cursive Text Generator</a></li>
                 <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
@@ -509,13 +511,12 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Features</h4>
+              <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>AI-Powered Generation</li>
-                <li>Multiple Font Styles</li>
-                <li>Unicode Support</li>
-                <li>Instant Generation</li>
-                <li>Free to Use</li>
+                <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="/contact-us" className="hover:text-white transition-colors">Contact Us</a></li>
+                <li><a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="/terms-and-conditions" className="hover:text-white transition-colors">Terms & Conditions</a></li>
               </ul>
             </div>
           </div>
