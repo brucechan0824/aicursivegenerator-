@@ -521,8 +521,15 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 AI Cursive Generator. All rights reserved.</p>
+          <div className="border-t border-gray-800 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <p className="text-gray-400">&copy; 2024 AI Cursive Generator. All rights reserved.</p>
+              <div className="flex items-center gap-4">
+                <a href="https://magicbox.tools" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity">
+                  <img src="https://magicbox.tools/badge.svg" alt="Featured on MagicBox.tools" width="150" height="40" className="h-10 w-auto" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
